@@ -1,0 +1,28 @@
+---
+---
+
+@import url(//cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css);
+@import 'main';
+
+* {
+  word-break: keep-all;
+  font-family: 'Pretendard', 'sans-serif' !important;
+}
+
+i {
+  font-family: "Font Awesome 6 Free" !important;
+}
+
+.fa-brands, .fab {
+  font-family: "Font Awesome 6 Brands" !important;
+}
+
+.px-1 {
+  .content {
+    font-size: 1.1rem !important;
+  }
+}
+
+#post-list .card .card-body .card-text.content p {
+  -webkit-line-clamp: 1;
+}
