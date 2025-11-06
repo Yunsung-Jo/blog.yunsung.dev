@@ -30,3 +30,7 @@ i {
 #post-list .card .card-body .card-text.content p {
   -webkit-line-clamp: 1;
 }
+
+.is-collapsed {
+  max-height: 1000px !important;
+}
